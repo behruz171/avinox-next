@@ -1,0 +1,462 @@
+[
+  {
+    "id": "prod-001",
+    "category": "stoly",
+    "name": "Professional Prep Table",
+    "title": "Стол производственный  островной",
+    "image": "Rasimlar/1/Photoshop/23.jpg",
+    "size": "1100х650х860 mm",
+    "metal_type": "AISI 201",
+    "description": "Столешница из нержавеющей стали, усиленная ЛДСП. Каркас из нержавеющей стали, профиль 40x40 мм. Решетчатая полка, расположенная на высоте 20 см от пола. Шаг решётки 5 см."
+  },
+  {
+    "id": "prod-002",
+    "category": "stoly",
+    "name": "Work Station Table",
+    "title": "Стол производственный пристенный",
+    "image": "Rasimlar/1/Photoshop/5.jpg",
+    "size": "1100х650х860 mm",
+    "metal_type": "AISI 201",
+    "description": "Столешница из нержавеющей стали с бортиком 10 см, усиленная ЛДСП. Каркас из нержавеющей стали, профиль 40x40 мм. Две сплошные полки: первая расположена на высоте 20 см от пола, вторая посередине между первой полкой и столешницей."
+  },
+  {
+    "id": "prod-003",
+    "category": "stoly",
+    "name": "Minimal Design Table",
+    "title": "Стол производственный пристенный",
+    "image": "Rasimlar/1/Photoshop/6.jpg",
+    "size": "1100х650х860 mm",
+    "metal_type": "AISI 201",
+    "description": "Столешница из нержавеющей стали с бортиком 10 см, усиленная ЛДСП. Каркас из нержавеющей стали, профиль 40x40 мм.Сплошная полка, расположенная на высоте 20 см от  пола."
+  },
+  {
+    "id": "prod-004",
+    "category": "stoly",
+    "name": "Double Deck Table",
+    "title": "Стол производственный  островной",
+    "image": "Rasimlar/1/Photoshop/8.jpg",
+    "size": "1100х650х860 mm",
+    "metal_type": "AISI 201",
+    "description": "Столешница из нержавеющей стали, усиленная ЛДСП. Каркас из нержавеющей стали, профиль 40x40 мм."
+  },
+  {
+    "id": "prod-005",
+    "category": "stoly",
+    "name": "Double Deck Table",
+    "title": "Стол производственный  островной",
+    "image": "Rasimlar/1/Photoshop/avinox21.jpg",
+    "size": "1100х650х860 mm",
+    "metal_type": "AISI 201",
+    "description": "Столешница из нержавеющей стали, усиленная ЛДСП. Каркас из нержавеющей стали, профиль 38x38 мм. Решетчатая полка, расположенная на высоте 20 см от пола. Шаг решётки 5 см."
+  },
+  {
+    "id": "prod-006",
+    "category": "moyki",
+    "name": "Double Bowl Sink",
+    "title": "Professional Double Bowl Sink",
+    "image": "Rasimlar/2/Photoshop/1.jpg",
+    "size": "1200x600x850 mm",
+    "metal_type": "AISI 304",
+    "description": "Commercial-grade double compartment sink with sound-dampening coating. Superior drainage and constructed from AISI 304 stainless steel for maximum corrosion resistance."
+  },
+  {
+    "id": "prod-007",
+    "category": "moyki",
+    "name": "Triple Bowl Wash Station",
+    "title": "Ванна моечная",
+    "image": "Rasimlar/2/Photoshop/10.jpg",
+    "size": "600x650x860 mm",
+    "metal_type": "AISI 304",
+    "description": "Мойка. Каркас из нержавеющей стали, профиль 40x40 мм, с бортиком высотой 10 см. Размер ванны 450х450х260 мм (цельнотянутая). При необходимости делается отверстие для смесителя."
+  },
+  {
+    "id": "prod-008",
+    "category": "moyki",
+    "name": "Single Bowl Sink",
+    "title": "Ванна моечная с рабочей поверхностью и дверцами-купе",
+    "image": "Rasimlar/2/Photoshop/15.jpg",
+    "size": "1100x650x860 mm",
+    "metal_type": "AISI 304",
+    "description": "Ванна: цельносварная, Полкасплошная;;Каркас: нерж.cталь AISI 201 сварной;профильная труба 38х38;фартук,бортНожки: регулируемые по высоте. Размеры мойки, 450х450х280 мм"
+  },
+  {
+    "id": "prod-009",
+    "category": "moyki",
+    "name": "Single Bowl Sink",
+    "title": "Compact Single Bowl Sink",
+    "image": "Rasimlar/2/Photoshop/2.jpg",
+    "size": "1200x600x850 mm",
+    "metal_type": "AISI 304",
+    "description": "Space-efficient single compartment sink perfect for smaller kitchens. Maintains premium construction standards with excellent drainage capacity."
+  },
+  {
+    "id": "prod-010",
+    "category": "moyki",
+    "name": "Single Bowl Sink",
+    "title": "Ванна моечная трехсекционная",
+    "image": "Rasimlar/2/Photoshop/3.jpg",
+    "size": "1600x650x860 mm",
+    "metal_type": "AISI 304",
+    "description": "Мойка моечная трёхсекционная. Каркас из нержавеющей стали, профиль 40x40 мм, с бортиком высотой 10 см. Размер каждой ванны 450х450х260 мм (цельнотянутые). При необходимости делается отверстие для смесителя."
+  },
+  {
+    "id": "prod-011",
+    "category": "moyki",
+    "name": "Single Bowl Sink",
+    "title": "Compact Single Bowl Sink",
+    "image": "Rasimlar/2/Photoshop/16.jpg",
+    "size": "1200x600x850 mm",
+    "metal_type": "AISI 304",
+    "description": "Space-efficient single compartment sink perfect for smaller kitchens. Maintains premium construction standards with excellent drainage capacity."
+  },
+  {
+    "id": "prod-012",
+    "category": "moyki",
+    "name": "Single Bowl Sink",
+    "title": "Compact Single Bowl Sink",
+    "image": "Rasimlar/2/Photoshop/avinox10.jpg",
+    "size": "1200x600x850 mm",
+    "metal_type": "AISI 304",
+    "description": "Space-efficient single compartment sink perfect for smaller kitchens. Maintains premium construction standards with excellent drainage capacity."
+  },
+  {
+    "id": "prod-013",
+    "category": "stellazhy",
+    "name": "Industrial Shelving Unit",
+    "title": "Heavy-Duty Industrial Shelving",
+    "image": "Rasimlar/3/Photoshop/1.jpg",
+    "size": "1200x600x850 mm",
+    "metal_type": "AISI 304",
+    "description": "Modular stainless steel shelving system supporting extreme loads. Perfect for restaurants, hotels, and commercial kitchens requiring maximum storage capacity."
+  },
+  {
+    "id": "prod-014",
+    "category": "stellazhy",
+    "name": "Wall-Mounted Shelves",
+    "title": "Стеллаж производственный",
+    "image": "Rasimlar/3/Photoshop/2.jpg",
+    "size": "1100х400х1600 mm",
+    "metal_type": "AISI 304",
+    "description": "Каркас из нерж.й стали 38x25 профил, 5полки сплошные. Первая полка: 20 см от пола. "
+  },
+  {
+    "id": "prod-015",
+    "category": "stellazhy",
+    "name": "Open Frame Shelving",
+    "title": "Стеллаж производственный",
+    "image": "Rasimlar/3/Photoshop/7.jpg",
+    "size": "1100х400х1600 mm",
+    "metal_type": "AISI 304",
+    "description": "Каркас из нерж.й стали 30x30 профил, 4 полки сплошные. Первая полка: 20 см от пола. "
+  },
+  {
+    "id": "prod-016",
+    "category": "stellazhy",
+    "name": "Open Frame Shelving",
+    "title": "Open Frame Storage Solution",
+    "image": "Rasimlar/3/Photoshop/9.jpg",
+    "size": "1200x600x850 mm",
+    "metal_type": "AISI 304",
+    "description": "Contemporary open-frame shelving design allowing easy access and visibility. Constructed from premium stainless steel with powder-coated frames."
+  },
+  {
+    "id": "prod-017",
+    "category": "shkafy",
+    "name": "Sliding Door Cabinet",
+    "title": "Шкаф для персонала 2-х секц",
+    "image": "Rasimlar/6/Photoshop/12.jpg",
+    "size": "800х400х1800 mm",
+    "metal_type": "AISI 304",
+    "description": "Шкаф состоит из двух отделений, каждое их которых закрывается на ключевой замок с возможностью смены цилиндра. Внутри имеется полка, перекладина и крючки. Вентиляционные отверстия обеспечивают проветривание отделения"
+  },
+  {
+    "id": "prod-018",
+    "category": "shkafy",
+    "name": "Double Door Cabinet",
+    "title": "Double Door Storage Cabinet",
+    "image": "Rasimlar/6/Photoshop/13.jpg",
+    "size": "1200x600x850 mm",
+    "metal_type": "AISI 304",
+    "description": "Spacious double-door cabinet combining functionality with elegant design. Features adjustable shelves and superior corrosion resistance."
+  },
+  {
+    "id": "prod-019",
+    "category": "shkafy",
+    "name": "Compact Cabinet",
+    "title": "Compact Stainless Cabinet",
+    "image": "Rasimlar/6/Photoshop/19.jpg",
+    "size": "1200x600x850 mm",
+    "metal_type": "AISI 304",
+    "description": "Space-saving compact cabinet perfect for smaller commercial spaces. Maintains professional quality with robust construction."
+  },
+  {
+    "id": "prod-020",
+    "category": "shkafy",
+    "name": "Compact Cabinet",
+    "title": "Compact Stainless Cabinet",
+    "image": "Rasimlar/6/Photoshop/22.jpg",
+    "size": "1200x600x850 mm",
+    "metal_type": "AISI 304",
+    "description": "Space-saving compact cabinet perfect for smaller commercial spaces. Maintains professional quality with robust construction."
+  },
+  {
+    "id": "prod-021",
+    "category": "shkafy",
+    "name": "Compact Cabinet",
+    "title": "Шкаф для персонала 6-х секц",
+    "image": "Rasimlar/6/Photoshop/avinox13.jpg",
+    "size": "600x400x2000 mm",
+    "metal_type": "AISI 304",
+    "description": "Space-saving compact cabinet perfect for smaller commercial spaces. Maintains professional quality with robust construction."
+  },
+  {
+    "id": "prod-022",
+    "category": "vytyazhka",
+    "name": "Professional Exhaust Hood",
+    "title": "Зонт вытяжной  островной",
+    "image": "Rasimlar/5/Photoshop/14.jpg",
+    "size": "1100х900х500 mm",
+    "metal_type": "AISI 304",
+    "description": " Стоящим в центральной зоне кухни. Вся - нержавеющая сталь В комплекте — лабиринтные фильтры (жироуловители) и сливной кран."
+  },
+  {
+    "id": "prod-023",
+    "category": "telezhky",
+    "name": "Mobile Service Cart",
+    "title": "Mobile Stainless Steel Cart",
+    "image": "Rasimlar/7/Photoshop/1.jpg",
+    "size": "1200x600x850 mm",
+    "metal_type": "AISI 304",
+    "description": "Durable mobile cart with smooth-rolling casters. Perfect for food transportation and service operations in restaurants and catering services."
+  },
+  {
+    "id": "prod-024",
+    "category": "telezhky",
+    "name": "Multi-Shelf Trolley",
+    "title": "Multi-Shelf Transport Trolley",
+    "image": "Rasimlar/7/Photoshop/5.jpg",
+    "size": "1200x600x850 mm",
+    "metal_type": "AISI 304",
+    "description": "Multi-tier trolley maximizing transport capacity. Constructed for heavy-duty operations with excellent maneuverability."
+  },
+  {
+    "id": "prod-025",
+    "category": "telezhky",
+    "name": "Professional Prep Cart",
+    "title": "Professional Preparation Cart",
+    "image": "Rasimlar/7/Photoshop/7.jpg",
+    "size": "1200x600x850 mm",
+    "metal_type": "AISI 304",
+    "description": "Specialized preparation cart with integrated storage and work surface. Ideal for mobile food preparation and service stations."
+  },
+  {
+    "id": "prod-026",
+    "category": "telezhky",
+    "name": "Professional Prep Cart",
+    "title": "Professional Preparation Cart",
+    "image": "Rasimlar/7/Photoshop/9.jpg",
+    "size": "1200x600x850 mm",
+    "metal_type": "AISI 304",
+    "description": "Specialized preparation cart with integrated storage and work surface. Ideal for mobile food preparation and service stations."
+  },
+  {
+    "id": "prod-027",
+    "category": "telezhky",
+    "name": "Professional Prep Cart",
+    "title": "Professional Preparation Cart",
+    "image": "Rasimlar/7/Photoshop/10.jpg",
+    "size": "1200x600x850 mm",
+    "metal_type": "AISI 304",
+    "description": "Specialized preparation cart with integrated storage and work surface. Ideal for mobile food preparation and service stations."
+  },
+  {
+    "id": "prod-028",
+    "category": "polki",
+    "name": "Wall Rack System",
+    "title": "Полка купе настенная",
+    "image": "Rasimlar/4/Photoshop/11.jpg",
+    "size": "1100х300 mm",
+    "metal_type": "AISI 304",
+    "description": "Два уровень."
+  },
+  {
+    "id": "prod-029",
+    "category": "polki",
+    "name": "Heavy Load Rack",
+    "title": "Полка навесная",
+    "image": "Rasimlar/4/Photoshop/26.jpg",
+    "size": "1100х300 mm",
+    "metal_type": "AISI 304",
+    "description": "Один уровень."
+  },
+  {
+    "id": "prod-030",
+    "category": "plity",
+    "name": "Professional Prep Cart",
+    "title": "Professional Preparation Cart",
+    "image": "Rasimlar/8/Photoshop/20.jpg",
+    "size": "1200x600x850 mm",
+    "metal_type": "AISI 304",
+    "description": "Specialized preparation cart with integrated storage and work surface. Ideal for mobile food preparation and service stations."
+  },
+  {
+    "id": "prod-031",
+    "category": "plity",
+    "name": "Professional Prep Cart",
+    "title": "Плита профессиональная промышленная газовая шестиконфорочная без духовки пристенная ",
+    "image": "Rasimlar/8/Photoshop/21.jpg",
+    "size": "1200x600x850 mm",
+    "metal_type": "AISI 304",
+    "description": "Столешница из нерж.й . Борт пр.я ст.на 15 см. Каркас из нерж.й стали 38x38 профил. Количество горелок повышенной тепловой мощности 6 шт.Расход природного газа: 5 м3/ч Газовая плита снабжена устройством \"газ-контроль\". Внизу открытая подставка. Плита имеет регулируемые по высоте ножки. "
+  },
+  {
+    "id": "prod-032",
+    "category": "marmit",
+    "name": "Professional Prep Cart",
+    "title": "Стол для приборов и хлеба.",
+    "image": "Rasimlar/9/Photoshop/avinox1.jpg",
+    "size": "1200x600x850 mm",
+    "metal_type": "AISI 304",
+    "description": "В нем размещаются столовые приборы, подносы, нарезанный хлеб и в нижних отсеках различные вспомогательные материалы."
+  },
+  {
+    "id": "prod-033",
+    "category": "marmit",
+    "name": "Professional Prep Cart",
+    "title": "Professional Preparation Cart",
+    "image": "Rasimlar/9/Photoshop/avinox2.jpg",
+    "size": "1200x600x850 mm",
+    "metal_type": "AISI 304",
+    "description": "Specialized preparation cart with integrated storage and work surface. Ideal for mobile food preparation and service stations."
+  },
+  {
+    "id": "prod-034",
+    "category": "marmit",
+    "name": "Professional Prep Cart",
+    "title": "Мармит вторых блюд",
+    "image": "Rasimlar/9/Photoshop/avinox3.jpg",
+    "size": "1100х700х860 mm",
+    "metal_type": "AISI 304",
+    "description": "Столешница из нерж.й стали укрепленная ЛДСП. Каркас из нерж.й стали 38x38 профил, общит с передней стороны и решетчатая 1 ая полка между реш.ми 10 см Регулятор температурыГастроемкости в комплект не входят. "
+  },
+  {
+    "id": "prod-035",
+    "category": "marmit",
+    "name": "Professional Prep Cart",
+    "title": "Стол островной раздаточный",
+    "image": "Rasimlar/9/Photoshop/avinox4.jpg",
+    "size": "1200x600x850 mm",
+    "metal_type": "AISI 304",
+    "description": "Столешница из нерж.й стали укрепленная ЛДСП. Каркас из нерж.й стали 40x40 профил, общит с передней стороны и решетчатая 1 ая полка между реш.ми 10 см  "
+  },
+  {
+    "id": "prod-036",
+    "category": "marmit",
+    "name": "Professional Prep Cart",
+    "title": "Professional Preparation Cart",
+    "image": "Rasimlar/9/Photoshop/avinox5.jpg",
+    "size": "1200x600x850 mm",
+    "metal_type": "AISI 304",
+    "description": "Specialized preparation cart with integrated storage and work surface. Ideal for mobile food preparation and service stations."
+  },
+  {
+    "id": "prod-037",
+    "category": "marmit",
+    "name": "Professional Prep Cart",
+    "title": "Мармит первых  блюд 2-х конфорочный.",
+    "image": "Rasimlar/9/Photoshop/avinox8.jpg",
+    "size": "1500x700x860 mm",
+    "metal_type": "AISI 304",
+    "description": "Specialized preparation cart with integrated storage and work surface. Ideal for mobile food preparation and service stations."
+  },
+  {
+    "id": "prod-038",
+    "category": "marmit",
+    "name": "Professional Prep Cart",
+    "title": "Professional Preparation Cart",
+    "image": "Rasimlar/9/Photoshop/avinox9.jpg",
+    "size": "1200x600x850 mm",
+    "metal_type": "AISI 304",
+    "description": "Specialized preparation cart with integrated storage and work surface. Ideal for mobile food preparation and service stations."
+  },
+  {
+    "id": "prod-039",
+    "category": "med",
+    "name": "Professional Prep Cart",
+    "title": "Professional Preparation Cart",
+    "image": "Rasimlar/10/Photoshop/avinox11.jpg",
+    "size": "1200x600x850 mm",
+    "metal_type": "AISI 304",
+    "description": "Specialized preparation cart with integrated storage and work surface. Ideal for mobile food preparation and service stations."
+  },
+  {
+    "id": "prod-040",
+    "category": "med",
+    "name": "Professional Prep Cart",
+    "title": "Professional Preparation Cart",
+    "image": "Rasimlar/10/Photoshop/avinox12.jpg",
+    "size": "1200x600x850 mm",
+    "metal_type": "AISI 304",
+    "description": "Specialized preparation cart with integrated storage and work surface. Ideal for mobile food preparation and service stations."
+  },
+  {
+    "id": "prod-041",
+    "category": "med",
+    "name": "Professional Prep Cart",
+    "title": "Professional Preparation Cart",
+    "image": "Rasimlar/10/Photoshop/avinox14.jpg",
+    "size": "1200x600x850 mm",
+    "metal_type": "AISI 304",
+    "description": "Specialized preparation cart with integrated storage and work surface. Ideal for mobile food preparation and service stations."
+  },
+  {
+    "id": "prod-042",
+    "category": "med",
+    "name": "Professional Prep Cart",
+    "title": "Professional Preparation Cart",
+    "image": "Rasimlar/10/Photoshop/avinox15.jpg",
+    "size": "1200x600x850 mm",
+    "metal_type": "AISI 304",
+    "description": "Specialized preparation cart with integrated storage and work surface. Ideal for mobile food preparation and service stations."
+  },
+  {
+    "id": "prod-043",
+    "category": "med",
+    "name": "Professional Prep Cart",
+    "title": "Professional Preparation Cart",
+    "image": "Rasimlar/10/Photoshop/avinox16.jpg",
+    "size": "1200x600x850 mm",
+    "metal_type": "AISI 304",
+    "description": "Specialized preparation cart with integrated storage and work surface. Ideal for mobile food preparation and service stations."
+  },
+  {
+    "id": "prod-044",
+    "category": "med",
+    "name": "Professional Prep Cart",
+    "title": "Professional Preparation Cart",
+    "image": "Rasimlar/10/Photoshop/avinox17.jpg",
+    "size": "1200x600x850 mm",
+    "metal_type": "AISI 304",
+    "description": "Specialized preparation cart with integrated storage and work surface. Ideal for mobile food preparation and service stations."
+  },
+  {
+    "id": "prod-045",
+    "category": "med",
+    "name": "Professional Prep Cart",
+    "title": "Professional Preparation Cart",
+    "image": "Rasimlar/10/Photoshop/avinox18.jpg",
+    "size": "1200x600x850 mm",
+    "metal_type": "AISI 304",
+    "description": "Specialized preparation cart with integrated storage and work surface. Ideal for mobile food preparation and service stations."
+  },
+  {
+    "id": "prod-046",
+    "category": "med",
+    "name": "Professional Prep Cart",
+    "title": "Professional Preparation Cart",
+    "image": "Rasimlar/10/Photoshop/avinox20.jpg",
+    "size": "1200x600x850 mm",
+    "metal_type": "AISI 304",
+    "description": "Specialized preparation cart with integrated storage and work surface. Ideal for mobile food preparation and service stations."
+  }
+]
