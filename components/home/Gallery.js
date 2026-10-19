@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useEffect } from 'react';
 import { useLanguage } from '@/components/LanguageProvider';
@@ -139,12 +139,14 @@ export default function Gallery() {
           <i className="fa-solid fa-arrow-left"></i>
         </button>
         <div className="lightbox-content" onClick={(e) => e.stopPropagation()}>
-          <img
-            src={activeIndex !== null ? galleryItems[activeIndex].src : ''}
-            alt=""
-            className="lightbox-img"
-            id="lightbox-display-img"
-          />
+          {activeIndex !== null && (
+            <img
+              src={galleryItems[activeIndex].src}
+              alt={galleryItems[activeIndex].title}
+              className="lightbox-img"
+              id="lightbox-display-img"
+            />
+          )}
           <div className="lightbox-caption">
             <p className="lightbox-title" id="lightbox-display-title">
               {activeIndex !== null ? galleryItems[activeIndex].title : ''}
