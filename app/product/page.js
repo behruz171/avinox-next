@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useEffect, Suspense } from 'react';
 import Link from 'next/link';
@@ -87,7 +87,12 @@ function ProductsContent() {
             <div className="products-grid" id="products-grid">
               {filteredProducts.length > 0 ? (
                 filteredProducts.map((product) => (
-                  <div key={product.id} className="product-card">
+                  <Link
+                    key={product.id}
+                    href={`/product/${product.id}`}
+                    className="product-card"
+                    style={{ textDecoration: 'none', color: 'inherit', display: 'block', cursor: 'pointer' }}
+                  >
                     <div className="product-card-inner">
                       <div className="product-image-wrapper">
                         <img
@@ -101,13 +106,13 @@ function ProductsContent() {
                         <p className="product-desc">
                           {product.description?.substring(0, 120)}...
                         </p>
-                        <Link href={`/product/${product.id}`} className="product-action">
+                        <span className="product-action">
                           <span>{t('products.viewDetails')}</span>{' '}
                           <i className="fa-solid fa-arrow-right"></i>
-                        </Link>
+                        </span>
                       </div>
                     </div>
-                  </div>
+                  </Link>
                 ))
               ) : (
                 <p

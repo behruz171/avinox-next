@@ -2336,3 +2336,89 @@ section {
     font-size:0.7rem;
   }
 }
+
+/* Custom animated success / error banner for Inquiry Modal */
+.inquiry-feedback-banner {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  border-radius: 12px;
+  backdrop-filter: blur(12px);
+  animation: feedbackSlideIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes feedbackSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.inquiry-feedback-banner.success {
+  background: rgba(39, 174, 96, 0.12);
+  border: 1px solid rgba(46, 204, 113, 0.35);
+  box-shadow: 0 8px 24px rgba(46, 204, 113, 0.15);
+}
+
+.inquiry-feedback-banner.error {
+  background: rgba(231, 76, 60, 0.12);
+  border: 1px solid rgba(231, 76, 60, 0.35);
+  box-shadow: 0 8px 24px rgba(231, 76, 60, 0.15);
+}
+
+.inquiry-feedback-banner .feedback-icon-box {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: iconPop 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.15s both;
+}
+
+@keyframes iconPop {
+  0% { transform: scale(0.4); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.inquiry-feedback-banner.success .feedback-icon-box {
+  color: #2ecc71;
+}
+
+.inquiry-feedback-banner.error .feedback-icon-box {
+  color: #e74c3c;
+}
+
+.inquiry-feedback-banner .feedback-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  text-align: left;
+}
+
+.inquiry-feedback-banner .feedback-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 0.02em;
+}
+
+.inquiry-feedback-banner.success .feedback-title {
+  color: #2ecc71;
+}
+
+.inquiry-feedback-banner.error .feedback-title {
+  color: #e74c3c;
+}
+
+.inquiry-feedback-banner .feedback-desc {
+  font-size: 0.85rem;
+  color: var(--white-color, #FAFAFA);
+  opacity: 0.92;
+  margin: 0;
+  line-height: 1.4;
+}

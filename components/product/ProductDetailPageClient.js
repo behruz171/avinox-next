@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState } from 'react';
 import Link from 'next/link';
@@ -52,18 +52,22 @@ export default function ProductDetailPageClient({ id }) {
 
     try {
       await sendToTelegram({ text, photo: imageUrl });
-      setFeedback({ text: 'Request sent successfully!', isSuccess: true, isError: false });
+      setFeedback({ 
+        text: t('product.inquiry.success', 'Request sent successfully! Our managers will contact you soon.'), 
+        isSuccess: true, 
+        isError: false 
+      });
       setInquiryName('');
       setInquiryPhone('');
 
       setTimeout(() => {
         setModalOpen(false);
         setFeedback({ text: '', isSuccess: false, isError: false });
-      }, 3000);
+      }, 3500);
     } catch (err) {
       console.error(err);
       setFeedback({
-        text: err.message || 'Failed to send request.',
+        text: t('product.inquiry.error', err.message || 'Failed to send request.'),
         isSuccess: false,
         isError: true,
       });
@@ -134,7 +138,10 @@ export default function ProductDetailPageClient({ id }) {
                     type="button"
                     className="btn-gold"
                     id="btn-contact-about-product"
-                    onClick={() => setModalOpen(true)}
+                    onClick={() => {
+                      setFeedback({ text: '', isSuccess: false, isError: false });
+                      setModalOpen(true);
+                    }}
                   >
                     <i className="fa-solid fa-envelope"></i>{' '}
                     {t('product.button.about')}
@@ -172,7 +179,12 @@ export default function ProductDetailPageClient({ id }) {
                 <h2 className="heading-md">{t('related')}</h2>
                 <div className="related-products-grid" id="related-products-grid">
                   {relatedProducts.map((p) => (
-                    <div key={p.id} className="product-card">
+                    <Link
+                      key={p.id}
+                      href={`/product/${p.id}`}
+                      className="product-card"
+                      style={{ textDecoration: 'none', color: 'inherit', display: 'block', cursor: 'pointer' }}
+                    >
                       <div className="product-card-inner">
                         <div className="product-image-wrapper">
                           <img
@@ -187,13 +199,13 @@ export default function ProductDetailPageClient({ id }) {
                           <p className="product-desc">
                             {p.description?.substring(0, 100)}...
                           </p>
-                          <Link href={`/product/${p.id}`} className="product-action">
+                          <span className="product-action">
                             <span>{t('products.viewDetails')}</span>{' '}
                             <i className="fa-solid fa-arrow-right"></i>
-                          </Link>
+                          </span>
                         </div>
                       </div>
-                    </div>
+                    </Link>
                   ))}
                 </div>
               </div>
@@ -252,19 +264,24 @@ export default function ProductDetailPageClient({ id }) {
               className="btn-gold modal-submit"
               disabled={submitting}
             >
-              {t('product.inquiry.submit', 'Send Request')}
+              {submitting ? '...' : t('product.inquiry.submit', 'Send Request')}
             </button>
             {feedback.text && (
-              <p
-                className={`form-feedback ${feedback.isSuccess ? 'success' : ''} ${feedback.isError ? 'error' : ''}`}
-                id="inquiry-feedback"
-                style={{
-                  display: 'block',
-                  color: feedback.isError ? '#ff4d4f' : '#4CAF50',
-                }}
+              <div
+                className={`inquiry-feedback-banner ${feedback.isSuccess ? 'success' : 'error'}`}
               >
-                {feedback.text}
-              </p>
+                <div className="feedback-icon-box">
+                  <i className={`fa-solid ${feedback.isSuccess ? 'fa-circle-check' : 'fa-circle-exclamation'}`}></i>
+                </div>
+                <div className="feedback-content">
+                  <p className="feedback-title">
+                    {feedback.isSuccess 
+                      ? (t('feedback.successTitle', 'Muvaffaqiyatli!')) 
+                      : (t('feedback.errorTitle', 'Xatolik!'))}
+                  </p>
+                  <p className="feedback-desc">{feedback.text}</p>
+                </div>
+              </div>
             )}
           </form>
         </div>

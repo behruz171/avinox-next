@@ -1,10 +1,12 @@
-'use client';
+﻿'use client';
 
+import Link from 'next/link';
 import { useLanguage } from '@/components/LanguageProvider';
 
 const products = [
   {
     id: 'prod-tables',
+    targetId: 'prod-001',
     img: '/imgs/tables.png',
     alt: 'Stainless Steel Kitchen Table',
     titleKey: 'products.table.title',
@@ -13,6 +15,7 @@ const products = [
   },
   {
     id: 'prod-sinks',
+    targetId: 'prod-006',
     img: '/imgs/Vitichka.png',
     alt: 'Industrial Stainless Steel Sink',
     titleKey: 'products.vitichka.title',
@@ -21,6 +24,7 @@ const products = [
   },
   {
     id: 'prod-basins',
+    targetId: 'prod-007',
     img: '/imgs/basins.png',
     alt: 'Stainless Wash Basin',
     titleKey: 'products.basins.title',
@@ -29,6 +33,7 @@ const products = [
   },
   {
     id: 'prod-shelves',
+    targetId: 'prod-013',
     img: '/imgs/a-shelves.png',
     alt: 'Stainless Steel Kitchen Shelves',
     titleKey: 'products.shelves.title',
@@ -37,6 +42,7 @@ const products = [
   },
   {
     id: 'prod-cabinets',
+    targetId: 'prod-017',
     img: '/imgs/tables.png',
     style: { filter: 'hue-rotate(15deg) brightness(0.6)' },
     alt: 'Stainless Steel Cabinets',
@@ -46,6 +52,7 @@ const products = [
   },
   {
     id: 'prod-furniture',
+    targetId: 'prod-023',
     img: '/imgs/factory.png',
     alt: 'Restaurant Furniture',
     titleKey: 'products.furniture.title',
@@ -54,6 +61,7 @@ const products = [
   },
   {
     id: 'prod-ventilation',
+    targetId: 'prod-022',
     img: '/imgs/hero_bg.png',
     alt: 'Ventilation Hoods',
     titleKey: 'products.ventilation.title',
@@ -62,6 +70,7 @@ const products = [
   },
   {
     id: 'prod-custom',
+    targetId: 'prod-032',
     img: '/imgs/factory.png',
     style: { filter: 'brightness(0.5) sepia(0.2) hue-rotate(-20deg)' },
     alt: 'Custom Stainless Products',
@@ -119,10 +128,12 @@ export default function ProductsSection() {
 
         <div className="products-grid" id="product-cards-container">
           {products.map((prod) => (
-            <div
+            <Link
               key={prod.id}
+              href={`/product/${prod.targetId}`}
               className="product-card"
               id={prod.id}
+              style={{ textDecoration: 'none', color: 'inherit', display: 'block', cursor: 'pointer' }}
               onMouseMove={handleMouseMove}
               onMouseLeave={handleMouseLeave}
             >
@@ -140,17 +151,16 @@ export default function ProductsSection() {
                     {t(prod.titleKey)}
                   </h3>
                   <p className="product-desc">{t(prod.descKey)}</p>
-                  <a
-                    href="#contact"
+                  <span
                     className="product-action"
                     id={prod.actionId}
                   >
                     {t('products.viewDetails')}{' '}
                     <i className="fa-solid fa-arrow-right"></i>
-                  </a>
+                  </span>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
