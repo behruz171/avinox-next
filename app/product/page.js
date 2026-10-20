@@ -96,7 +96,7 @@ function ProductsContent() {
                     <div className="product-card-inner">
                       <div className="product-image-wrapper">
                         <img
-                          src={`/${product.image}`}
+                          src={`/${product.poster}`}
                           alt={product.name}
                           className="product-img"
                         />

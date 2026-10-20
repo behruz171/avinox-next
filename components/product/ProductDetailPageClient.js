@@ -188,7 +188,7 @@ export default function ProductDetailPageClient({ id }) {
                       <div className="product-card-inner">
                         <div className="product-image-wrapper">
                           <img
-                            src={`/${p.image}`}
+                            src={`/${p.poster}`}
                             alt={p.name}
                             className="product-img"
                             loading="lazy"
