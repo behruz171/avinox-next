@@ -55,18 +55,18 @@
         "description":  "Столешница из нержавеющей стали, усиленная ЛДСП. Каркас из нержавеющей стали, профиль 38x38 мм. Решетчатая полка, расположенная на высоте 20 см от пола. Шаг решётки 5 см."
     },
     {
-        "id":  "vanna-moechnaya-dvuhsekcionnaya-nerzhavejka",
+        "id":  "moyka-moechnaya-odnosekcionnaya-nerzhavejka",
         "category":  "moyki",
-        "name":  "Double Bowl Sink",
-        "title":  "Professional Double Bowl Sink",
+        "name":  "Single Bowl Sink",
+        "title":  "Professional Single Bowl Sink",
         "poster":  "posters/2/1_poster.png",
         "image":  "Rasimlar/2/Photoshop/1.jpg",
         "size":  "1200x600x850 mm",
         "metal_type":  "AISI 304",
-        "description":  "Commercial-grade double compartment sink with sound-dampening coating. Superior drainage and constructed from AISI 304 stainless steel for maximum corrosion resistance."
+        "description":  "Одна секция. Размер мойки 450х450х280 мм."
     },
     {
-        "id":  "vanna-moechnaya-odnosekcionnaya-600",
+        "id":  "moyka-moechnaya-odnosekcionnaya-600",
         "category":  "moyki",
         "name":  "Triple Bowl Wash Station",
         "title":  "Ванна моечная",
@@ -77,7 +77,7 @@
         "description":  "Мойка. Каркас из нержавеющей стали, профиль 40x40 мм, с бортиком высотой 10 см. Размер ванны 450х450х260 мм (цельнотянутая). При необходимости делается отверстие для смесителя."
     },
     {
-        "id":  "vanna-moechnaya-s-rabochej-poverhnostyu-kupe",
+        "id":  "moyka-s-rabochej-poverhnostyu-kupe",
         "category":  "moyki",
         "name":  "Single Bowl Sink",
         "title":  "Ванна моечная с рабочей поверхностью и дверцами-купе",
@@ -88,18 +88,18 @@
         "description":  "Ванна: цельносварная, Полкасплошная;;Каркас: нерж.cталь AISI 201 сварной;профильная труба 38х38;фартук,бортНожки: регулируемые по высоте. Размеры мойки, 450х450х280 мм"
     },
     {
-        "id":  "vanna-moechnaya-odnosekcionnaya-1200",
+        "id":  "moyka-moechnaya-dvuhsekcionnaya-1200",
         "category":  "moyki",
-        "name":  "Single Bowl Sink",
-        "title":  "Compact Single Bowl Sink",
+        "name":  "Double Bowl Sink",
+        "title":  "Compact Double Bowl Sink",
         "poster":  "posters/2/2_poster.png",
         "image":  "Rasimlar/2/Photoshop/2.jpg",
         "size":  "1200x600x850 mm",
         "metal_type":  "AISI 304",
-        "description":  "Space-efficient single compartment sink perfect for smaller kitchens. Maintains premium construction standards with excellent drainage capacity."
+        "description":  "Две секции. Размер мойки 450х450х280 мм ."
     },
     {
-        "id":  "vanna-moechnaya-trehsekcionnaya-1600",
+        "id":  "moyka-moechnaya-trehsekcionnaya-1600",
         "category":  "moyki",
         "name":  "Single Bowl Sink",
         "title":  "Ванна моечная трехсекционная",
@@ -110,7 +110,7 @@
         "description":  "Мойка моечная трёхсекционная. Каркас из нержавеющей стали, профиль 40x40 мм, с бортиком высотой 10 см. Размер каждой ванны 450х450х260 мм (цельнотянутые). При необходимости делается отверстие для смесителя."
     },
     {
-        "id":  "mojka-nerzhaveyushchaya-stal-odnosekcionnaya",
+        "id":  "moyka-nerzhaveyushchaya-stal-odnosekcionnaya",
         "category":  "moyki",
         "name":  "Single Bowl Sink",
         "title":  "Compact Single Bowl Sink",
@@ -121,10 +121,10 @@
         "description":  "Space-efficient single compartment sink perfect for smaller kitchens. Maintains premium construction standards with excellent drainage capacity."
     },
     {
-        "id":  "vanna-moechnaya-odnochashnaya-promyshlennaya",
+        "id":  "moyka-moechnaya-dvuhsekcionnaya-promyshlennaya",
         "category":  "moyki",
-        "name":  "Single Bowl Sink",
-        "title":  "Compact Single Bowl Sink",
+        "name":  "Double Bowl Sink",
+        "title":  "Compact Double Bowl Sink",
         "poster":  "posters/2/avinox10_poster.png",
         "image":  "Rasimlar/2/Photoshop/avinox10.jpg",
         "size":  "1200x600x850 mm",
@@ -132,7 +132,7 @@
         "description":  "Space-efficient single compartment sink perfect for smaller kitchens. Maintains premium construction standards with excellent drainage capacity."
     },
     {
-        "id":  "stellazh-proizvodstvennyj-nerzhaveyushchaya-stal",
+        "id":  "stellaj-proizvodstvennyj-nerzhaveyushchaya-stal",
         "category":  "stellazhy",
         "name":  "Industrial Shelving Unit",
         "title":  "Heavy-Duty Industrial Shelving",
@@ -143,7 +143,7 @@
         "description":  "Modular stainless steel shelving system supporting extreme loads. Perfect for restaurants, hotels, and commercial kitchens requiring maximum storage capacity."
     },
     {
-        "id":  "stellazh-proizvodstvennyj-5-polok",
+        "id":  "stellaj-proizvodstvennyj-5-polok",
         "category":  "stellazhy",
         "name":  "Wall-Mounted Shelves",
         "title":  "Стеллаж производственный",
@@ -154,7 +154,7 @@
         "description":  "Каркас из нерж.й стали 38x25 профил, 5полки сплошные. Первая полка: 20 см от пола. "
     },
     {
-        "id":  "stellazh-proizvodstvennyj-4-polki",
+        "id":  "stellaj-proizvodstvennyj-4-polki",
         "category":  "stellazhy",
         "name":  "Open Frame Shelving",
         "title":  "Стеллаж производственный",
@@ -165,7 +165,7 @@
         "description":  "Каркас из нерж.й стали 30x30 профил, 4 полки сплошные. Первая полка: 20 см от пола. "
     },
     {
-        "id":  "stellazh-nerzhaveyushchij-otkrytyj-promyshlennyj",
+        "id":  "stellaj-nerzhaveyushchij-otkrytyj-promyshlennyj",
         "category":  "stellazhy",
         "name":  "Open Frame Shelving",
         "title":  "Open Frame Storage Solution",
@@ -242,7 +242,7 @@
         "description":  " Стоящим в центральной зоне кухни. Вся - нержавеющая сталь В комплекте — лабиринтные фильтры (жироуловители) и сливной кран."
     },
     {
-        "id":  "telezhka-podkatnaya-iz-nerzhaveyushchej-stali",
+        "id":  "telejka-podkatnaya-iz-nerzhaveyushchej-stali",
         "category":  "telezhky",
         "name":  "Mobile Service Cart",
         "title":  "Mobile Stainless Steel Cart",
@@ -253,7 +253,7 @@
         "description":  "Durable mobile cart with smooth-rolling casters. Perfect for food transportation and service operations in restaurants and catering services."
     },
     {
-        "id":  "telezhka-dlya-podnosov-mnogoyarusnaya",
+        "id":  "telejka-dlya-podnosov-mnogoyarusnaya",
         "category":  "telezhky",
         "name":  "Multi-Shelf Trolley",
         "title":  "Multi-Shelf Transport Trolley",
@@ -264,7 +264,7 @@
         "description":  "Multi-tier trolley maximizing transport capacity. Constructed for heavy-duty operations with excellent maneuverability."
     },
     {
-        "id":  "telezhka-servirovochnaya-2-yarusa",
+        "id":  "telejka-servirovochnaya-2-yarusa",
         "category":  "telezhky",
         "name":  "Professional Prep Cart",
         "title":  "Professional Preparation Cart",
@@ -275,7 +275,7 @@
         "description":  "Specialized preparation cart with integrated storage and work surface. Ideal for mobile food preparation and service stations."
     },
     {
-        "id":  "telezhka-gruzovaya-platformennaya",
+        "id":  "telejka-gruzovaya-platformennaya",
         "category":  "telezhky",
         "name":  "Professional Prep Cart",
         "title":  "Professional Preparation Cart",
@@ -286,7 +286,7 @@
         "description":  "Specialized preparation cart with integrated storage and work surface. Ideal for mobile food preparation and service stations."
     },
     {
-        "id":  "telezhka-tekhnologicheskaya-nerzhavejka",
+        "id":  "telejka-tekhnologicheskaya-nerzhavejka",
         "category":  "telezhky",
         "name":  "Professional Prep Cart",
         "title":  "Professional Preparation Cart",
@@ -341,7 +341,7 @@
         "description":  "Столешница из нерж.й . Борт пр.я ст.на 15 см. Каркас из нерж.й стали 38x38 профил. Количество горелок повышенной тепловой мощности 6 шт.Расход природного газа: 5 м3/ч Газовая плита снабжена устройством \"газ-контроль\". Внизу открытая подставка. Плита имеет регулируемые по высоте ножки. "
     },
     {
-        "id":  "stol-dlya-priborov-i-hleba",
+        "id":  "marmit-stol-dlya-priborov-i-hleba",
         "category":  "marmit",
         "name":  "Professional Prep Cart",
         "title":  "Стол для приборов и хлеба.",
@@ -374,7 +374,7 @@
         "description":  "Столешница из нерж.й стали укрепленная ЛДСП. Каркас из нерж.й стали 38x38 профил, общит с передней стороны и решетчатая 1 ая полка между реш.ми 10 см Регулятор температурыГастроемкости в комплект не входят. "
     },
     {
-        "id":  "stol-ostrovnoj-razdatochnyj",
+        "id":  "marmit-stol-ostrovnoj-razdatochnyj",
         "category":  "marmit",
         "name":  "Professional Prep Cart",
         "title":  "Стол островной раздаточный",
@@ -440,7 +440,7 @@
         "description":  "Specialized preparation cart with integrated storage and work surface. Ideal for mobile food preparation and service stations."
     },
     {
-        "id":  "shkaf-medicinskij-iz-nerzhaveyushchej-stali",
+        "id":  "instrument-medicinskij-iz-nerzhaveyushchej-stali",
         "category":  "med",
         "name":  "Professional Prep Cart",
         "title":  "Professional Preparation Cart",
@@ -451,7 +451,7 @@
         "description":  "Specialized preparation cart with integrated storage and work surface. Ideal for mobile food preparation and service stations."
     },
     {
-        "id":  "stol-laboratornyj-nerzhaveyushchij",
+        "id":  "instrument-laboratornyj-nerzhaveyushchij",
         "category":  "med",
         "name":  "Professional Prep Cart",
         "title":  "Professional Preparation Cart",
@@ -462,7 +462,7 @@
         "description":  "Specialized preparation cart with integrated storage and work surface. Ideal for mobile food preparation and service stations."
     },
     {
-        "id":  "telezhka-medicinskaya-dlya-instrumentov",
+        "id":  "shkaf-medicinskaya-dlya-instrumentov",
         "category":  "med",
         "name":  "Professional Prep Cart",
         "title":  "Professional Preparation Cart",
@@ -473,7 +473,7 @@
         "description":  "Specialized preparation cart with integrated storage and work surface. Ideal for mobile food preparation and service stations."
     },
     {
-        "id":  "podstavka-medicinskaya-nerzhaveyushchaya",
+        "id":  "shkaf-medicinskaya-nerzhaveyushchaya",
         "category":  "med",
         "name":  "Professional Prep Cart",
         "title":  "Professional Preparation Cart",
@@ -484,7 +484,7 @@
         "description":  "Specialized preparation cart with integrated storage and work surface. Ideal for mobile food preparation and service stations."
     },
     {
-        "id":  "rakovina-hirurgicheskaya-medicinskaya",
+        "id":  "rakovina-moyka-hirurgicheskaya-medicinskaya",
         "category":  "med",
         "name":  "Professional Prep Cart",
         "title":  "Professional Preparation Cart",
@@ -495,7 +495,7 @@
         "description":  "Specialized preparation cart with integrated storage and work surface. Ideal for mobile food preparation and service stations."
     },
     {
-        "id":  "tumba-medicinskaya-podkatnaya",
+        "id":  "tumba-moyka-medicinskaya-podkatnaya",
         "category":  "med",
         "name":  "Professional Prep Cart",
         "title":  "Professional Preparation Cart",
