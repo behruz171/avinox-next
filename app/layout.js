@@ -1,4 +1,4 @@
-﻿import './globals.css';
+import './globals.css';
 import { LanguageProvider } from '@/components/LanguageProvider';
 import DottedSurface from '@/components/DottedSurface';
 
@@ -16,8 +16,8 @@ export const metadata = {
     'stainless steel',
     'nerjaveyka',
     'nerjaveyka toshkent',
-    'zanglamaydigan po\'lat',
-    'zanglamas po\'lat',
+    "zanglamaydigan po'lat",
+    "zanglamas po'lat",
     'nerjaveykalik stollar',
     'nerjaveyka moyka',
     'oshxona jihozlari',
@@ -88,30 +88,13 @@ export const metadata = {
         alt: 'AVINOX Stainless Steel Equipment',
       },
     ],
-    videos: [
-      {
-        url: 'https://avinox.uz/videos/Avinox_logo_animation_revealing_1080p_20261019101451.mp4',
-        secureUrl: 'https://avinox.uz/videos/Avinox_logo_animation_revealing_1080p_20261019101451.mp4',
-        type: 'video/mp4',
-        width: 1920,
-        height: 1080,
-      },
-    ],
   },
   twitter: {
-    card: 'player',
+    card: 'summary_large_image',
     title: 'AVINOX | Premium Custom Stainless Steel Solutions',
     description:
       'Премиум решения из нержавеющей стали (AISI 304/201) для коммерческих кухонь и ресторанов.',
     images: ['https://avinox.uz/imgs/logo.png'],
-    players: [
-      {
-        playerUrl: 'https://avinox.uz/videos/Avinox_logo_animation_revealing_1080p_20261019101451.mp4',
-        streamUrl: 'https://avinox.uz/videos/Avinox_logo_animation_revealing_1080p_20261019101451.mp4',
-        width: 1920,
-        height: 1080,
-      },
-    ],
   },
   verification: {
     google: 'ImopMXniS92EJ4l6tkj6GkItaOOjDz--zQk3Btkm1J4',
@@ -163,18 +146,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ru">
       <head>
-        {/* <link rel="icon" href="/imgs/tab_logo.png" type="image/png" /> */}
         <meta name="geo.region" content="UZ-TO" />
         <meta name="geo.placename" content="Tashkent" />
         <meta name="theme-color" content="#0D0D0D" />
-        <meta property="og:video" content="https://avinox.uz/videos/Avinox_logo_animation_revealing_1080p_20261019101451.mp4" />
-        <meta property="og:video:secure_url" content="https://avinox.uz/videos/Avinox_logo_animation_revealing_1080p_20261019101451.mp4" />
-        <meta property="og:video:type" content="video/mp4" />
-        <meta property="og:video:width" content="1920" />
-        <meta property="og:video:height" content="1080" />
-        <meta property="og:image" content="https://avinox.uz/imgs/logo.png" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
