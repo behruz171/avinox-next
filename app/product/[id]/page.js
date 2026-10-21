@@ -1,3 +1,4 @@
+﻿import { Suspense } from 'react';
 import ProductDetailPageClient from '@/components/product/ProductDetailPageClient';
 import allProducts from '@/lib/products-data.json';
 import { BASE_URL } from '@/lib/config';
@@ -39,7 +40,15 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default async function ProductDetailPage({ params }) {
+async function ProductDetailContent({ params }) {
   const { id } = await params;
   return <ProductDetailPageClient id={id} />;
+}
+
+export default function ProductDetailPage({ params }) {
+  return (
+    <Suspense fallback={null}>
+      <ProductDetailContent params={params} />
+    </Suspense>
+  );
 }

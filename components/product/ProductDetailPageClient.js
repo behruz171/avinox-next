@@ -103,7 +103,7 @@ export default function ProductDetailPageClient({ id }) {
                   <img
                     id="product-main-image"
                     src={`/${product.image}`}
-                    alt={product.name}
+                    alt={`${product.name} ${product.category} | ${product.title} | AVINOX`}
                     className="product-detail-image"
                     loading="lazy"
                   />

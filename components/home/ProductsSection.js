@@ -6,7 +6,7 @@ import { useLanguage } from '@/components/LanguageProvider';
 const products = [
   {
     id: 'prod-tables',
-    targetId: 'prod-001',
+    targetId: 'stol-proizvodstvennyj-ostrovnoj-reshetchataya-polka',
     img: '/imgs/tables.png',
     alt: 'Stainless Steel Kitchen Table',
     titleKey: 'products.table.title',
@@ -15,7 +15,7 @@ const products = [
   },
   {
     id: 'prod-sinks',
-    targetId: 'prod-006',
+    targetId: 'vanna-moechnaya-dvuhsekcionnaya-nerzhavejka',
     img: '/imgs/Vitichka.png',
     alt: 'Industrial Stainless Steel Sink',
     titleKey: 'products.vitichka.title',
@@ -24,7 +24,7 @@ const products = [
   },
   {
     id: 'prod-basins',
-    targetId: 'prod-007',
+    targetId: 'vanna-moechnaya-odnosekcionnaya-600',
     img: '/imgs/basins.png',
     alt: 'Stainless Wash Basin',
     titleKey: 'products.basins.title',
@@ -33,7 +33,7 @@ const products = [
   },
   {
     id: 'prod-shelves',
-    targetId: 'prod-013',
+    targetId: 'stellazh-proizvodstvennyj-nerzhaveyushchaya-stal',
     img: '/imgs/a-shelves.png',
     alt: 'Stainless Steel Kitchen Shelves',
     titleKey: 'products.shelves.title',
@@ -42,7 +42,7 @@ const products = [
   },
   {
     id: 'prod-cabinets',
-    targetId: 'prod-017',
+    targetId: 'shkaf-dlya-personala-2-sekcionnyj',
     img: '/imgs/tables.png',
     style: { filter: 'hue-rotate(15deg) brightness(0.6)' },
     alt: 'Stainless Steel Cabinets',
@@ -52,7 +52,7 @@ const products = [
   },
   {
     id: 'prod-furniture',
-    targetId: 'prod-023',
+    targetId: 'telezhka-podkatnaya-iz-nerzhaveyushchej-stali',
     img: '/imgs/factory.png',
     alt: 'Restaurant Furniture',
     titleKey: 'products.furniture.title',
@@ -61,7 +61,7 @@ const products = [
   },
   {
     id: 'prod-ventilation',
-    targetId: 'prod-022',
+    targetId: 'zont-vytyazhnoj-ostrovnoj',
     img: '/imgs/hero_bg.png',
     alt: 'Ventilation Hoods',
     titleKey: 'products.ventilation.title',
@@ -70,7 +70,7 @@ const products = [
   },
   {
     id: 'prod-custom',
-    targetId: 'prod-032',
+    targetId: 'stol-dlya-priborov-i-hleba',
     img: '/imgs/factory.png',
     style: { filter: 'brightness(0.5) sepia(0.2) hue-rotate(-20deg)' },
     alt: 'Custom Stainless Products',
