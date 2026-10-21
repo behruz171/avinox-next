@@ -64,7 +64,10 @@ export const metadata = {
     },
   },
   icons: {
-    icon: '/imgs/tab_logo.png',
+    icon: [
+      { url: '/imgs/tab_logo.png', type: 'image/png', sizes: '192x192' },
+      { url: '/imgs/tab_logo.png', type: 'image/png', sizes: '512x512' },
+    ],
     shortcut: '/imgs/tab_logo.png',
     apple: '/imgs/tab_logo.png',
   },
@@ -111,8 +114,8 @@ export const metadata = {
     ],
   },
   verification: {
-    // google: 'google-site-verification-kodini-bu-yerga-qoyishingiz-mumkin',
-    // yandex: 'yandex-verification-kodi',
+    google: 'ImopMXniS92EJ4l6tkj6GkItaOOjDz--zQk3Btkm1J4',
+    yandex: 'd827686e4183d59e',
   },
   category: 'commercial equipment',
 };
@@ -158,9 +161,9 @@ const organizationSchema = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="ru">
       <head>
-        <link rel="icon" href="/imgs/tab_logo.png" type="image/png" />
+        {/* <link rel="icon" href="/imgs/tab_logo.png" type="image/png" /> */}
         <meta name="geo.region" content="UZ-TO" />
         <meta name="geo.placename" content="Tashkent" />
         <meta name="theme-color" content="#0D0D0D" />
