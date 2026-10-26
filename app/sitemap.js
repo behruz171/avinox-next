@@ -9,7 +9,7 @@ export default function sitemap() {
   const productUrls = products.map((product) => ({
     url: `${baseUrl}/product/${product.id}`,
     lastModified: new Date(),
-    changeFrequency: 'weekly',
+    changeFrequency: 'daily',
     priority: 0.8,
   }));
 
