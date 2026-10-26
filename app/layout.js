@@ -1,6 +1,7 @@
 import './globals.css';
 import { LanguageProvider } from '@/components/LanguageProvider';
 import DottedSurface from '@/components/DottedSurface';
+import { Analytics } from '@vercel/analytics/next';
 
 export const metadata = {
   metadataBase: new URL('https://avinox.uz'),
@@ -161,6 +162,7 @@ export default function RootLayout({ children }) {
       <body>
         <DottedSurface />
         <LanguageProvider>{children}</LanguageProvider>
+        <Analytics />
       </body>
     </html>
   );
